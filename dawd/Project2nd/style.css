@@ -1,0 +1,120 @@
+/*Aizen Card */
+body {
+    background: linear-gradient(to bottom, #1d1d2a, #3b3b5c);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1 {
+    color: white;
+}
+.firstCharacter-card {
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.4);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    width: 260px;
+    text-align: center;
+    border-radius: 18px;
+    transition: 0.4s;
+    margin: 0 30px;
+}
+.firstCharacter-card:hover {
+    transform: scale(1.05);
+}
+.firstCharacter-card img {
+    width: 130px;
+    height: 130px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.btn {
+    background-color: #ff4edb;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff1dc7;
+    transform: translateY(-3px);
+}
+/*Asuka Card */
+.secondCharacter-card {
+    background: rgba(255,255,255,0.15);
+    color: rgb(203,38,41);
+    border: 1px solid rgba(255,255,255,0.4);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    width: 260px;
+    text-align: center;
+    border-radius: 18px;
+    transition: 0.4s;
+}
+.secondCharacter-card:hover {
+    transform: scale(1.05);
+}
+.secondCharacter-card img {
+    width: 130px;
+    height: 130px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.secbtn {
+    background-color: rgb(62,119,189);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.secbtn:hover {
+    background-color: rgb(127,170,68);
+    transform: translateY(-3px);
+}
+/*Rin Tohsaka */
+.thirdCharacter-card {
+    background: rgba(255,255,255,0.15);
+    color: rgb(203,38,41);
+    border: 1px solid rgba(255,255,255,0.4);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    width: 260px;
+    text-align: center;
+    border-radius: 18px;
+    transition: 0.4s;
+    margin: 0 30px;
+}
+.thirdCharacter-card:hover {
+    transform: scale(1.05);
+}
+.thirdCharacter-card img {
+    width: 130px;
+    height: 130px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.thirdbtn {
+    background-color: rgb(62,119,189);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.thirdbtn:hover {
+    background-color: rgb(127,170,68);
+    transform: translateY(-3px);
+}

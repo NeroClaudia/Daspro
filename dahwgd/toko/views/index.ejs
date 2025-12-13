@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daftar Produk</title>
+</head>
+<body>
+  <h2>Daftar Produk</h2>
+
+  <table border="1" cellspacing="0" cellpadding="8">
+    <tr>
+      <th>Nama</th>
+      <th>Harga</th>
+    </tr>
+
+    <% dataProduk.forEach(item => { %>
+      <tr>
+        <td><%= item.nama %></td>
+        <td><%= item.harga %></td>
+      </tr>
+    <% }) %>
+  </table>
+
+</body>
+</html>
